@@ -5,7 +5,7 @@ var path = require('path')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.send("************DROIDMAN*************")
 });
 
 router.get('/state',function(req, res){
